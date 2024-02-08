@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} User Data {% endblock %}
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+  <h1 class="display-4">User Information</h1>
+  <p class="lead">Want to check the details of the user?</p>
+  <hr class="my-4">
+  <p>You've found the right place! Checkout the user data.</p>
+  <a class="btn btn-warning btn-lg" href="{{ url_for('user_data') }}" role="button">Show Me!</a>
+</div>
+    </div>
+
+{% endblock %}
